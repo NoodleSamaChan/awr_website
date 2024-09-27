@@ -29,7 +29,7 @@
 .logo {
   float: left;
   display: inline-block;
-  background: red;
+  background: #f9667b;
   padding: 20px;
   margin-right: 25px;
 }
@@ -83,7 +83,7 @@
   padding: 200px 25px;
   background: -webkit-linear-gradient(
       45deg,
-      rgba(231, 31, 17, 0.7) 0%,
+      rgba(231, 31, 17, 0.1) 0%,
       #000000 100%
     ),
     url(https://marionmyanh.com/wp-content/uploads/2023/06/progression-advocate-marion-my-anh-baxerres.png)
@@ -92,6 +92,28 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#largeImageEnd {
+  padding: 200px 25px;
+  background: -webkit-linear-gradient(
+      45deg,
+      rgba(231, 31, 17, 0.1) 0%,
+      #000000 100%
+    ),
+    url(https://marionmyanh.com/wp-content/uploads/2022/09/projectawr_wallpaper.png)
+      no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.description-box a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  color: white;
 }
 
 .description-box {
@@ -202,6 +224,7 @@
   font-size: 15px;
   margin: 0px;
   color: white;
+  text-shadow: black 0px 0px 2px; 
 }
 
 .postsBoxes a {
@@ -211,6 +234,7 @@
   font-size: 15px;
   margin: 0px;
   color: white;
+  text-shadow: black 0px 0px 2px; 
 }
 
 .postsBoxes smallButton {
@@ -226,7 +250,7 @@
 .post1 {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(231, 31, 17, 0.5) 0%,
+      rgba(231, 31, 17, 0.2) 0%,
       #000000 100%
     ),
     url(https://marionmyanh.com/wp-content/uploads/2023/03/gameher.png)
@@ -240,7 +264,7 @@
 .post2 {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(231, 31, 17, 0.5) 0%,
+      rgba(231, 31, 17, 0.2) 0%,
       #000000 100%
     ),
     url(https://marionmyanh.com/wp-content/uploads/2023/05/108-wide-project-awr-txt.png)
@@ -254,7 +278,7 @@
 .post3 {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(231, 31, 17, 0.5) 0%,
+      rgba(231, 31, 17, 0.2) 0%,
       #000000 100%
     ),
     url(https://marionmyanh.com/wp-content/uploads/2022/06/acs.jpg) no-repeat left
@@ -268,7 +292,7 @@
 .post4 {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(231, 31, 17, 0.5) 0%,
+      rgba(231, 31, 17, 0.2) 0%,
       #000000 100%
     ),
     url(https://marionmyanh.com/wp-content/uploads/2022/07/raidiant-2-ig.png)
@@ -282,7 +306,7 @@
 .post5 {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(231, 31, 17, 0.5) 0%,
+      rgba(231, 31, 17, 0.2) 0%,
       #000000 100%
     ),
     url(https://marionmyanh.com/wp-content/uploads/2022/06/raidiant.png)
@@ -296,7 +320,7 @@
 .post6 {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(231, 31, 17, 0.5) 0%,
+      rgba(231, 31, 17, 0.2) 0%,
       #000000 100%
     ),
     url(https://marionmyanh.com/wp-content/uploads/2022/06/awrep.png)
@@ -310,10 +334,24 @@
 .post7 {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(231, 31, 17, 0.5) 0%,
+      rgba(231, 31, 17, 0.2) 0%,
       #000000 100%
     ),
     url(https://marionmyanh.com/wp-content/uploads/2022/06/ifr_dlc_thumbnail.webp)
+      no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post8 {
+  background: -webkit-linear-gradient(
+      45deg,
+      rgba(231, 31, 17, 0.2) 0%,
+      #000000 100%
+    ),
+    url(https://marionmyanh.com/wp-content/uploads/2023/06/progression-advocate-marion-my-anh-baxerres.png)
       no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
