@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 0px;
+  background: #ffffff;
+}
+
+/* Header/Blog Title 
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}*/
+
+#header {
+  background: rgb(177, 255, 173);
+  color: rgb(0, 191, 3);
+  overflow: auto;
+  padding-left: 18px;
+  padding-right: 25px;
+  margin-top: 0%;
+}
+
+#header a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.selectedItem {
+  color: #f9667b;
+}
+
+#header a:hover {
+  color: red;
+}
+
+.logo {
+  float: left;
+  display: inline-block;
+  background: #f9667b;
+  padding: 20px;
+  margin-right: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.leftMenu {
+  float: left;
+  display: inline-block;
+}
+
+.leftMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.leftMenu ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.leftMenu ul li a {
+  color: rgb(19, 226, 85);
+}
+
+.leftMenu ul li a.dropdown {
+  color: red;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+  text-align: center;
+}
+
+/* Right column */
+.rightcolumn {
+  width: 20%;
+  position: fixed;
+  right: 45px;
+  top: 100px;
+  overflow: auto;
+  max-height:700;
+}
+
+/* Fake image side pannel */
+.fakeimgside {
+  border-radius: 25px;
+  border: 2px solid rgb(0, 191, 3);
+  color: rgb(0, 191, 3);
+  font-weight: bold;
+  padding: 20px;
+  width: 250px;
+  height: 90px;
+  padding-bottom: 80px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.post1 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/awrep.png?w=1024)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post2 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/ifr_dlc_thumbnail.webp)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post3 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/understandingmmr_headerv2.webp)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post4 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/communityspotlight_355180.webp)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post5 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/light.webp)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post6 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/english.webp)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post7 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/nikki.webp)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post8 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/germia.webp)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post9 {
+  background: 
+    url(https://marionmyanh.com/wp-content/uploads/2022/06/creatives.webp)
+      no-repeat left center;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border: double;
+  overflow: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
